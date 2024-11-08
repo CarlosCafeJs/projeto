@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --size-percent: 100%;
+
+  --size-padrao-gg: 16em;
+  --size-padrao-g: 8em;
+  --size-padrao-m: 4em;
+  --size-padrao-p: 2em;
+  --size-padrao-pp: 0.5em;
+
+  --space-padrao-p: 2em;
+  --space-padrao-m: 4em;
+
+  --background-cor-preto: #1c1f21;
+  --background-cor-czazulado: #586F7C;
+  --background-cor-azul: #B8DBD9;
+  --background-cor-verde: #04724D;
+  --background-cor-branco: #F4F4F9;
+
+}
+
+
+
+
+.m-0 {
+  margin: 0;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.mt-1 {
+  margin-top: 8px;
+}
+
+.mb-1 {
+  margin-bottom: 8px;
+}
+
+.ml-1 {
+  margin-left: 8px;
+}
+
+.mr-1 {
+  margin-right: 8px;
+}
+
+.mr-2 {
+  margin-right: 16px;
+}
+
+.mr-4 {
+  margin-right: 64px;
+}
+
+.mt-2 {
+  margin-top: 16px;
+}
+
+.mb-2 {
+  margin-bottom: 16px;
+}
+
+.ml-2 {
+  margin-left: 16px;
+}
+
+.mr-2 {
+  margin-right: 16px;
+}
+
+.p-1 {
+  padding: 8px;
+}
+
+.p-2 {
+  padding: 16px;
+}
+
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+
+.hidden {
+  display: none !important;
+}
+
+.visible {
+  display: block !important;
+}
+
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.h-4em {
+  height: 4em;
+}
+
+.h-auto {
+  height: auto;
+}
+
+
+.d-flex {
+  display: flex;
+}
+
+.justify-start {
+  justify-content:start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+
+.cor-preto {
+  background-color: #1c1f21;
+}
+
+.cor-czazulado {
+  background-color: #586F7C;
+}
+
+.cor-azul {
+  background-color: #B8DBD9;
+}
+
+.cor-verde {
+  background-color: #04724D;
+}
+
+.cor-branco {
+  background-color: #F4F4F9;
+}
+
+.border {
+  border: 1px solid #dee2e6;
+}
+
+.border-0 {
+  border: 0;
+}
+
+.rounded {
+  border-radius: .25rem;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+.unstyle-list {
+  list-style: none;
+}
+
+.unstyle-link {
+  font-style: none;
+}

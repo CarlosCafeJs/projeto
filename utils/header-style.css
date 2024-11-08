@@ -1,0 +1,31 @@
+#lista-header {
+  gap: var(--space-padrao-m);
+
+
+}
+
+#lista-header li {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  color: var(--background-cor-branco);
+
+
+
+}
+
+#lista-header li:hover {
+  height: 100%;
+  background-color: var(--background-cor-azul);
+  cursor: pointer;
+  color: var(--background-cor-verde);
+  border-radius: 20px;
+
+}
+
+
+
+
+
+

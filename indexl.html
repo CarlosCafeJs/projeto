@@ -3,30 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/utils/utils.css">
+  <link rel="stylesheet" href="/utils/header-style.css">
+  <link rel="stylesheet" href="/utils/footer-style.css">
+
+  <link rel="stylesheet" href="/utils/index-style.css">
+
   <title>ESCTEC Home</title>
 </head>
 <body>
+
   <div class="body-container-main">
               <!--.body-container-main - tratado no arquivo styles |
                   Container que hospeda todo os conteúdos da pagina.
                   Serve para evitar a utilização do body no css. 
                    -->
-      <header>
+      <header class="  d-flex align-center align-items justify-between w-100 h-4em cor-verde">
       <!-- pseudo-elemento responsável pela identificação
            semântica do 'cabeçalho da pagina, utilizamos como
            marcação para o topo'  -->
-          <ul class="lista-header">
+           <img class="margin-right h-100 " src="./assets/ESCTEC-WHT_.png" alt="">
+          <ul id="lista-header" class="  h-4em w-50 d-flex align-center  unstyle-list ">
               <!-- Aqui criamos a lista, neste caso, temos 5 elementos
                   Que chamamos de 'li', um item, de uma lista não ordenada, ul 
               -->
-            <li>Home</li>
-            <li>A Empresa</li>
-            <li>Produtos</li>
-            <li>Pedidos</li>
-            <li>Contatos</li>
+            <li><p>Home</p></li>
+            <li><p>A Empresa</p></li>
+            <li><p>Produtos</p></li>
+            <li><p>Pedidos</p></li>
+            <li><p>Contatos</p></li>
           </ul>
 
       </header>
+
+      <footer class="footer w-100 cor-preto text-branco p-2">
+        <div class="footer-container d-flex justify-between align-center">
+         
+          <div class="footer-section">
+            <h4>Links Rápidos</h4>
+            <ul class="unstyle-list">
+              <li><a href="#" class="unstyle-link text-branco">Home</a></li>
+              <li><a href="#" class="unstyle-link text-branco">Produtos</a></li>
+              <li><a href="#" class="unstyle-link text-branco">Contato</a></li>
+              <li><a href="#" class="unstyle-link text-branco">Sobre Nós</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contato</h4>
+            <p>Email: contato@ESCTEC.com</p>
+            <p>Telefone: (00) 0000-000</p>
+          </div>
+          <div class="footer-section">
+            <h4>Siga-nos</h4>
+            <ul class="d-flex unstyle-list">
+              <li><a href="#" class="unstyle-link text-branco mr-2">Facebook</a></li>
+              <li><a href="#" class="unstyle-link text-branco mr-2">Twitter</a></li>
+              <li><a href="#" class="unstyle-link text-branco">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom text-center mt-2">
+          <p>&copy; 2024 ESCTEC. Todos os direitos reservados.</p>
+        </div>
   </div>
 </body>
 </html>
