@@ -1,0 +1,26 @@
+/* Estilo adicional para a galeria de imagens */
+.gallery-container {
+  padding: var(--size-padrao-m);
+}
+
+.image-grid {
+  gap: var(--space-padrao-p);
+}
+
+.image-item {
+  width: 30%;
+  /* Ajusta o tamanho dos itens da galeria */
+  padding: var(--size-padrao-pp);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.image-item img {
+  max-width: var(--size-percent);
+  height: auto;
+}
+
+.image-item:hover {
+  transform: scale(1.05);
+
+}

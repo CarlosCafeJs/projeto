@@ -1,0 +1,25 @@
+/* Estilo para o container de contato */
+.contact-container {
+
+  padding: var(--space-padrao-m);
+}
+
+/* Estilo para o formulário de contato */
+.contact-form {
+  background-color: var(--background-cor-czazulado);
+  padding: var(--space-padrao-m);
+  gap: var(--space-padrao-p);
+}
+
+
+
+.submit-btn {
+  cursor: pointer;
+  border: 0;
+
+}
+
+.submit-btn:hover {
+  background-color: var(--background-cor-preto);
+
+}
