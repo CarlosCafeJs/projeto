@@ -9,9 +9,9 @@
   <link rel="stylesheet" href="/utils/footer-style.css">
 
   <!-- CSS DINAMICO (UM POR PAGINA) -->
-  <link rel="stylesheet" href="/utils/main-contato-style.css">
+  <link rel="stylesheet" href="/utils/main-pedidos-style.css">
 
-  <title>Contato</title>
+  <title>ESCTEC Home</title>
 </head>
 <body>
 
@@ -38,12 +38,13 @@
 
       </header>
 
-      <main class="p-2">
-        <h1 class="text-center text-uppercase cor-preto mt-2 mb-2">Página de Pedidos</h1>
+
+      <main class="p-2 w-50">
+        <h1 class="text-center text-uppercase mt-2 mb-2">Página de Pedidos</h1>
         <div class="pedido-imagem-classe d-flex justify-center flex-column mt-2 mb-2 border rounded p-2">
-            <form class="w-100">
+            <form class="w-50">
                 <div>
-                    <label for="vendedor" class="text-left cor-preto">Nome do Vendedor</label><br>
+                    <label for="vendedor" class="text-left">Nome do Vendedor</label><br>
                     <select id="vendedor" name="vendedor" class="input-field" onchange="preencherFormularioVendedores()" required>
                         <option value="">Selecione um vendedor</option>
                         <option value="vendedor1">Ana Oliveira</option>
@@ -53,31 +54,31 @@
                         <option value="vendedor5">Pedro Snoopy</option>
                     </select><br><br>
 
-                    <label for="empresa" class="text-left cor-preto">Empresa</label><br>
+                    <label for="empresa" class="text-left">Empresa</label><br>
                     <input type="text" id="empresa" name="empresa" placeholder="Empresa" class="input-field" required><br><br>
 
-                    <label for="cnpj" class="text-left cor-preto">CNPJ</label><br>
+                    <label for="cnpj" class="text-left">CNPJ</label><br>
                     <input type="text" id="cnpj" name="cnpj" placeholder="CNPJ" class="input-field" required><br><br>
 
-                    <label for="endereco" class="text-left cor-preto">Endereço</label><br>
+                    <label for="endereco" class="text-left">Endereço</label><br>
                     <input type="text" id="endereco" name="endereco" placeholder="Endereço" class="input-field" required><br><br>
 
-                    <label for="cidade" class="text-left cor-preto">Cidade</label><br>
+                    <label for="cidade" class="text-left">Cidade</label><br>
                     <input type="text" id="cidade" name="cidade" placeholder="Cidade" class="input-field" required><br><br>
 
-                    <label for="uf" class="text-left cor-preto">UF</label><br>
+                    <label for="uf" class="text-left">UF</label><br>
                     <input type="text" id="uf" name="uf" placeholder="UF" class="input-field" required><br><br>
 
-                    <label for="telefone" class="text-left cor-preto">Telefone</label><br>
+                    <label for="telefone" class="text-left">Telefone</label><br>
                     <input type="tel" id="telefone" name="telefone" placeholder="Telefone" class="input-field" required><br><br>
 
-                    <label for="email" class="text-left cor-preto">Email</label><br>
+                    <label for="email" class="text-left">Email</label><br>
                     <input type="email" id="email" name="email" placeholder="Email" class="input-field" required><br><br>
 
-                    <h4 class="text-left cor-preto mt-2 mb-2">Itens de Produto</h4>
+                    <h4 class="text-left mt-2 mb-2">Itens de Produto</h4>
                     <div id="produtos" class="d-flex flex-column">
                         <div class="produto-item">
-                            <label for="produto1" class="text-left cor-preto">Produto 1</label><br>
+                            <label for="produto1" class="text-left">Produto 1</label><br>
                             <select class="produto input-field" onchange="preencherFormularioProd(this)" required>
                                 <option value="">Selecione um produto</option>
                                 <option value="cd_01">Cadeira Dot - All Black</option>
@@ -88,24 +89,24 @@
 
                             <input type="number" class="qtd input-field" placeholder="Quantidade" min="1" onchange="calcValorTotalProduto(this)" required>
                             <input type="text" class="valor input-field" placeholder="Valor Unitário" required>
-                            <label for="total" class="text-left cor-preto">Total:</label>
+                            <label for="total" class="text-left">Total:</label>
                             <input type="text" class="total input-field" placeholder="Valor Total" readonly>
                         </div>
                     </div>
                     <button class="button mt-2 mb-2">Adicionar Produto</button>
 
-                    <label for="valor-total" class="text-left cor-preto">Valor Total do Pedido</label><br>
+                    <label for="valor-total" class="text-left">Valor Total do Pedido</label><br>
                     <input type="text" id="valor-total" name="valor_total" class="input-field" placeholder="Valor Total do Pedido" readonly><br><br>
 
-                    <label class="text-left cor-preto">Como conheceu a ESCTEC?</label><br>
+                    <label class="text-left">Como conheceu a ESCTEC?</label><br>
                     <input type="radio" id="indicacao" name="como_conheceu" value="Indicação" required>
-                    <label for="indicacao" class="text-left cor-preto">Indicação</label><br>
+                    <label for="indicacao" class="text-left">Indicação</label><br>
                     <input type="radio" id="email" name="como_conheceu" value="Email" required>
-                    <label for="email" class="text-left cor-preto">Email</label><br>
+                    <label for="email" class="text-left">Email</label><br>
                     <input type="radio" id="buscadores" name="como_conheceu" value="Buscadores" required>
-                    <label for="buscadores" class="text-left cor-preto">Buscadores</label><br><br>
+                    <label for="buscadores" class="text-left">Buscadores</label><br><br>
 
-                    <label for="mensagem" class="text-left cor-preto">Mensagem</label><br>
+                    <label for="mensagem" class="text-left">Mensagem</label><br>
                     <textarea id="mensagem" name="mensagem" rows="3" cols="20" class="input-field" placeholder="Digite sua mensagem..."></textarea><br><br>
 
                     <div class="d-flex justify-between">
@@ -116,7 +117,6 @@
             </form>
         </div>
     </main>
-      
 
       <footer class="footer w-100 cor-preto text-branco p-2">
         <div class="footer-container d-flex justify-between align-center">
